@@ -3,13 +3,24 @@
 
 <head>
   <title>HTM01 paskatai</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    img {
+      max-width: 24.6%;
+    }
+  </style>
 </head>
 
 <body>
-  <nav>
+  <nav id="top">
     <a href="#home">Home page</a>
     <a href="#about">About page</a>
     <a href="#contact">Contact page</a>
+    <!-- #imagesid ====> id='imagesid' -->
+    <a href="#imagesid">Gallery</a>
   </nav>
 
   <h1>HTM01 paskatai</h1>
@@ -48,13 +59,21 @@
   </div>
 
   <section>
-    <h2>Images</h2>
+    <h2 id="imagesid">Images</h2>
 
     <div class="gallery">
       <img src="1.jpg" alt="Laptop">
+      <img src="2.jpg" alt="Laptop man">
+      <img src="snow.jpg" alt="snow mountain">
+      <img src="small.jpg" alt="ocean view">
     </div>
 
   </section>
+
+  <!-- sukurti nuoroda kuri sako "Back to top"
+      paspaudus puslapis graziai vaziuoja i virsu
+  -->
+  <a href="#top">Back to top 🏚️</a>
 
 
 
